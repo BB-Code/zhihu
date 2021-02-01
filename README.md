@@ -22,3 +22,23 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### templates
+
+```ts
+<template>
+  <div></div>
+</template>
+
+<script lang="ts">
+import {defineComponent} from 'vue'
+export default defineComponent({
+    name:''
+})
+</script>
+
+<style>
+
+</style>
+```
